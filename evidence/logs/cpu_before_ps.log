@@ -1,0 +1,4 @@
+===== CPU BEFORE PROCESS CHECK =====
+mission+    1372     504  0 08:44 pts/0    00:00:00 timeout 220s stdbuf -oL -eL ./agent-app-leak
+mission+    1374    1372  0 08:44 pts/0    00:00:00 ./agent-app-leak
+mission+    1385    1374  0 08:44 pts/0    00:00:00 ./agent-app-leak

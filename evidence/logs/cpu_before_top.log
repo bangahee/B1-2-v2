@@ -1,0 +1,9 @@
+===== CPU BEFORE TOP CHECK =====
+top - 08:44:35 up  3:28,  0 user,  load average: 0.00, 0.02, 0.00
+Tasks:   1 total,   0 running,   1 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  1.6 sy,  0.0 ni, 98.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  16049.5 total,  15497.6 free,    631.5 used,    180.0 buff/cache     
+MiB Swap:  17073.5 total,  17073.5 free,      0.0 used.  15417.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1385 mission+  30  10   24056  18532   9896 S   0.0   0.1   0:00.08 agent-a+

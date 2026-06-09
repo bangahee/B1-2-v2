@@ -1,0 +1,44 @@
+=== Monitor started at Tue Jun  9 08:31:40 UTC 2026 ===
+LOG_FILE=logs/oom_before_monitor.log
+PORT=15034
+
+[Tue Jun  9 08:31:40 UTC 2026] --- Monitor Snapshot ---
+PROCESS: OK - agent-app-leak running with PID(s): 520
+    520     519 mission+  0.0  0.0  2092 R    ./agent-app-leak
+PORT: WARN - 15034 is not listening
+
+[Tue Jun  9 08:31:42 UTC 2026] --- Monitor Snapshot ---
+PROCESS: OK - agent-app-leak running with PID(s): 520
+531
+    520     519 mission+  4.4  0.0  2224 S    ./agent-app-leak
+    531     520 mission+  2.5  0.1 18212 SN   ./agent-app-leak
+PORT: OK - 15034 is listening
+
+[Tue Jun  9 08:31:44 UTC 2026] --- Monitor Snapshot ---
+PROCESS: OK - agent-app-leak running with PID(s): 520
+531
+    520     519 mission+  2.2  0.0  2224 S    ./agent-app-leak
+    531     520 mission+  2.2  0.2 43816 SN   ./agent-app-leak
+PORT: OK - 15034 is listening
+
+[Tue Jun  9 08:31:46 UTC 2026] --- Monitor Snapshot ---
+PROCESS: OK - agent-app-leak running with PID(s): 520
+531
+    520     519 mission+  1.4  0.0  2224 S    ./agent-app-leak
+    531     520 mission+  2.1  0.4 69420 SN   ./agent-app-leak
+PORT: OK - 15034 is listening
+
+[Tue Jun  9 08:31:48 UTC 2026] --- Monitor Snapshot ---
+PROCESS: OK - agent-app-leak running with PID(s): 520
+531
+    520     519 mission+  1.1  0.0  2224 S    ./agent-app-leak
+    531     520 mission+  1.6  0.4 69420 SN   ./agent-app-leak
+PORT: OK - 15034 is listening
+
+[Tue Jun  9 08:31:50 UTC 2026] --- Monitor Snapshot ---
+PROCESS: OK - agent-app-leak running with PID(s): 520
+531
+    520     519 mission+  0.8  0.0  2224 S    ./agent-app-leak
+    531     520 mission+  1.6  0.5 95024 SN   ./agent-app-leak
+PORT: OK - 15034 is listening
+

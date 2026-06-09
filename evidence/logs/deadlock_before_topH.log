@@ -1,0 +1,11 @@
+===== DEADLOCK TOP -H CHECK =====
+top - 08:37:23 up  3:21,  0 user,  load average: 0.08, 0.05, 0.01
+Threads:   3 total,   0 running,   3 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.0 sy,  0.0 ni,100.0 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem :  16049.5 total,  15413.8 free,    652.0 used,    268.0 buff/cache     
+MiB Swap:  17073.5 total,  17073.5 free,      0.0 used.  15397.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    975 mission+  30  10  170496  18544   9892 S   0.0   0.1   0:00.05 agent-a+
+   1000 mission+  30  10  170496  18544   9892 S   0.0   0.1   0:00.00 agent-a+
+   1001 mission+  30  10  170496  18544   9892 S   0.0   0.1   0:00.00 agent-a+

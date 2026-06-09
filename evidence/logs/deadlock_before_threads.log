@@ -1,0 +1,5 @@
+===== DEADLOCK THREAD CHECK =====
+    PID     TID STAT %CPU %MEM COMMAND
+    975     975 SNl   0.2  0.1 agent-app-leak
+    975    1000 SNl   0.0  0.1 agent-app-leak
+    975    1001 SNl   0.0  0.1 agent-app-leak

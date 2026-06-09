@@ -11,4 +11,4 @@ __MACOSX/
 # Runtime directories
 api_keys/
 upload_files/
-logs/
+/logs/
