@@ -1,0 +1,14 @@
+.DS_Store
+*.tmp
+
+# Provided binary / package
+agent-app-leak
+agent-app-leak.zip
+agent-app-leak-x86
+agent-app-leak-arm64
+__MACOSX/
+
+# Runtime directories
+api_keys/
+upload_files/
+logs/
