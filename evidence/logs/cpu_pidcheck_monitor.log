@@ -1,0 +1,100 @@
+=== Monitor started at Wed Jun 10 12:56:23 UTC 2026 ===
+LOG_FILE=logs/cpu_pidcheck_monitor.log
+PORT=15034
+
+[Wed Jun 10 12:56:23 UTC 2026] --- Monitor Snapshot ---
+PROCESS: OK - agent-app-leak running with PID(s): 469
+    469     463 mission+  0.0  0.0  2040 t    ./agent-app-leak
+PORT: WARN - 15034 is not listening
+
+[Wed Jun 10 12:56:25 UTC 2026] --- Monitor Snapshot ---
+PROCESS: OK - agent-app-leak running with PID(s): 469
+477
+    469     463 mission+  4.9  0.0  2172 S    ./agent-app-leak
+    477     469 mission+  2.6  0.1 18248 SN   ./agent-app-leak
+PORT: OK - 15034 is listening
+
+[Wed Jun 10 12:56:27 UTC 2026] --- Monitor Snapshot ---
+PROCESS: OK - agent-app-leak running with PID(s): 469
+477
+    469     463 mission+  2.4  0.0  2172 S    ./agent-app-leak
+    477     469 mission+  1.5  0.1 18312 SN   ./agent-app-leak
+PORT: OK - 15034 is listening
+
+[Wed Jun 10 12:56:29 UTC 2026] --- Monitor Snapshot ---
+PROCESS: OK - agent-app-leak running with PID(s): 469
+477
+    469     463 mission+  1.6  0.0  2172 S    ./agent-app-leak
+    477     469 mission+  1.1  0.1 18312 SN   ./agent-app-leak
+PORT: OK - 15034 is listening
+
+[Wed Jun 10 12:56:31 UTC 2026] --- Monitor Snapshot ---
+PROCESS: OK - agent-app-leak running with PID(s): 469
+477
+    469     463 mission+  1.2  0.0  2172 S    ./agent-app-leak
+    477     469 mission+  0.8  0.1 18312 SN   ./agent-app-leak
+PORT: OK - 15034 is listening
+
+[Wed Jun 10 12:56:33 UTC 2026] --- Monitor Snapshot ---
+PROCESS: OK - agent-app-leak running with PID(s): 469
+477
+    469     463 mission+  0.9  0.0  2172 S    ./agent-app-leak
+    477     469 mission+  0.8  0.1 18312 SN   ./agent-app-leak
+PORT: OK - 15034 is listening
+
+[Wed Jun 10 12:56:35 UTC 2026] --- Monitor Snapshot ---
+PROCESS: OK - agent-app-leak running with PID(s): 469
+477
+    469     463 mission+  0.8  0.0  2172 S    ./agent-app-leak
+    477     469 mission+  0.9  0.1 18312 SN   ./agent-app-leak
+PORT: OK - 15034 is listening
+
+[Wed Jun 10 12:56:37 UTC 2026] --- Monitor Snapshot ---
+PROCESS: OK - agent-app-leak running with PID(s): 469
+477
+    469     463 mission+  0.7  0.0  2164 S    ./agent-app-leak
+    477     469 mission+  0.7  0.1 18288 SN   ./agent-app-leak
+PORT: OK - 15034 is listening
+
+[Wed Jun 10 12:56:39 UTC 2026] --- Monitor Snapshot ---
+PROCESS: OK - agent-app-leak running with PID(s): 469
+477
+    469     463 mission+  0.6  0.0  2164 S    ./agent-app-leak
+    477     469 mission+  0.8  0.1 18288 SN   ./agent-app-leak
+PORT: OK - 15034 is listening
+
+[Wed Jun 10 12:56:41 UTC 2026] --- Monitor Snapshot ---
+PROCESS: OK - agent-app-leak running with PID(s): 469
+477
+    469     463 mission+  0.5  0.0  2164 S    ./agent-app-leak
+    477     469 mission+  0.8  0.1 18288 SN   ./agent-app-leak
+PORT: OK - 15034 is listening
+
+[Wed Jun 10 12:56:43 UTC 2026] --- Monitor Snapshot ---
+PROCESS: OK - agent-app-leak running with PID(s): 469
+477
+    469     463 mission+  0.4  0.0  2164 S    ./agent-app-leak
+    477     469 mission+  0.7  0.1 18288 SN   ./agent-app-leak
+PORT: OK - 15034 is listening
+
+[Wed Jun 10 12:56:45 UTC 2026] --- Monitor Snapshot ---
+PROCESS: OK - agent-app-leak running with PID(s): 469
+477
+    469     463 mission+  0.4  0.0  2164 S    ./agent-app-leak
+    477     469 mission+  0.9  0.1 18288 SN   ./agent-app-leak
+PORT: OK - 15034 is listening
+
+[Wed Jun 10 12:56:47 UTC 2026] --- Monitor Snapshot ---
+PROCESS: OK - agent-app-leak running with PID(s): 469
+477
+    469     463 mission+  0.4  0.0  2164 S    ./agent-app-leak
+    477     469 mission+  0.9  0.1 18288 SN   ./agent-app-leak
+PORT: OK - 15034 is listening
+
+[Wed Jun 10 12:56:49 UTC 2026] --- Monitor Snapshot ---
+PROCESS: OK - agent-app-leak running with PID(s): 469
+477
+    469     463 mission+  0.3  0.0  2164 S    ./agent-app-leak
+    477     469 mission+  0.9  0.1 18288 SN   ./agent-app-leak
+PORT: OK - 15034 is listening
+

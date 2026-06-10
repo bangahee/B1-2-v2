@@ -1,0 +1,40 @@
+>>> Starting Agent Boot Sequence...
+[1/6] Checking User Account               [OK]
+   ... Running as service user 'mission-user' (uid=1001)
+[2/6] Verifying Environment Variables     [OK]
+   ... All required Envs correct
+[3/6] Checking Required Files             [OK]
+   ... Verified 'secret.key' with correct key string.
+[4/6] Checking Port Availability          [OK]
+   ... Port 15034 is available.
+[5/6] Verifying Log Permission            [OK]
+   ... Log directory is writable: /app/logs
+[6/6] Verifying Mission Environment       [OK]
+   ... MEMORY_LIMIT=512MB, CPU_MAX_OCCUPY=80%, MULTI_THREAD_ENABLE=False
+------------------------------------------------------------
+All Boot Checks Passed!
+Agent READY
+2026-06-10 12:56:23,751 [INFO] [SafetyGuard] Process priority lowered (nice=10).
+2026-06-10 12:56:23,752 [INFO] Agent listening at port 15034
+
+==================================================
+ [ Agent Initiate ] Resource Check 
+==================================================
+ [ MEMORY ] Limit: 512MB 		[ OK ]
+ [ CPU    ] Limit: 80%  		[ WARNING: Recommend Under 50% ]
+ [ THREAD ] Concurrency: False 		[ OK ]
+--------------------------------------------------
+ >>> SYSTEM STATUS: STABLE. STARTING WORKLOAD MONITORING...
+==================================================
+
+2026-06-10 12:56:25,763 [INFO] [CpuWorker] Started. Maximum CPU Limit: 80%
+2026-06-10 12:56:25,764 [INFO] [CpuWorker] Current Load: 5.00%
+2026-06-10 12:56:28,885 [INFO] [CpuWorker] Current Load: 12.80%
+2026-06-10 12:56:32,006 [INFO] [CpuWorker] Current Load: 14.63%
+2026-06-10 12:56:35,127 [INFO] [CpuWorker] Current Load: 21.36%
+2026-06-10 12:56:38,248 [INFO] [CpuWorker] Current Load: 24.42%
+2026-06-10 12:56:41,368 [INFO] [CpuWorker] Current Load: 27.18%
+2026-06-10 12:56:44,489 [INFO] [CpuWorker] Current Load: 37.01%
+2026-06-10 12:56:47,610 [INFO] [CpuWorker] Current Load: 46.66%
+2026-06-10 12:56:50,731 [INFO] [CpuWorker] Current Load: 55.68%
+2026-06-10 12:56:50,833 [CRITICAL] [CpuWorker] CPU Threshold Violated! (55.67999999999999%).

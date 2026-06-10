@@ -1,0 +1,15 @@
+===== PID CHECK DURING EXECUTION =====
+STRACE_PID=461
+
+mission+     460     368  0 12:56 pts/0    00:00:00 /bin/bash ./monitor.sh
+mission+     461     368  0 12:56 pts/0    00:00:00 timeout 220s strace -f -e trace=signal -o logs/cpu_pidcheck_signal.log ./agent-app-leak
+mission+     463     461  0 12:56 pts/0    00:00:00 strace -f -e trace=signal -o logs/cpu_pidcheck_signal.log ./agent-app-leak
+mission+     469     463  1 12:56 pts/0    00:00:00 ./agent-app-leak
+mission+     477     469  0 12:56 pts/0    00:00:00 ./agent-app-leak
+
+===== PROCESS TREE STYLE CHECK =====
+    460     368 mission+ S     0.1  0.0 /bin/bash ./monitor.sh
+    461     368 mission+ S     0.0  0.0 timeout 220s strace -f -e trace=signal -o logs/cpu_pidcheck_signal.log ./agent-app-leak
+    463     461 mission+ S     0.3  0.0 strace -f -e trace=signal -o logs/cpu_pidcheck_signal.log ./agent-app-leak
+    469     463 mission+ S     1.2  0.0 ./agent-app-leak
+    477     469 mission+ SN    0.8  0.1 ./agent-app-leak

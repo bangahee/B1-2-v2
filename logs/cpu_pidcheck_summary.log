@@ -1,0 +1,20 @@
+===== SIGNAL SUMMARY =====
+469   rt_sigaction(SIGTERM, {sa_handler=0x409a00, sa_mask=[TERM], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f186e435330}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+477   rt_sigaction(SIGTERM, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+477   rt_sigaction(SIGCHLD, NULL, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+477   kill(477, SIGTERM)                = 0
+477   --- SIGTERM {si_signo=SIGTERM, si_code=SI_USER, si_pid=477, si_uid=1001} ---
+477   +++ killed by SIGTERM +++
+469   --- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_KILLED, si_pid=477, si_uid=1001, si_status=SIGTERM, si_utime=29 /* 0.29 s */, si_stime=2 /* 0.02 s */} ---
+469   rt_sigaction(SIGTERM, {sa_handler=SIG_DFL, sa_mask=[TERM], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f186e435330}, {sa_handler=0x409a00, sa_mask=[TERM], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f186e435330}, 8) = 0
+469   rt_sigaction(SIGCHLD, {sa_handler=SIG_DFL, sa_mask=[CHLD], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7f186e435330}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+469   tgkill(469, 469, SIGTERM)         = 0
+469   --- SIGTERM {si_signo=SIGTERM, si_code=SI_TKILL, si_pid=469, si_uid=1001} ---
+469   +++ killed by SIGTERM +++
+
+===== APP SUMMARY =====
+   ... MEMORY_LIMIT=512MB, CPU_MAX_OCCUPY=80%, MULTI_THREAD_ENABLE=False
+Agent READY
+ [ CPU    ] Limit: 80%  		[ WARNING: Recommend Under 50% ]
+2026-06-10 12:56:25,763 [INFO] [CpuWorker] Started. Maximum CPU Limit: 80%
+2026-06-10 12:56:50,833 [CRITICAL] [CpuWorker] CPU Threshold Violated! (55.67999999999999%).
